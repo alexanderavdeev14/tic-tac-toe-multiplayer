@@ -1,7 +1,10 @@
 package alexander.avdeev.games.tictactoemultiplayer.game;
 
+import org.springframework.stereotype.Component;
+
 import java.awt.*;
 
+@Component
 public class MoveValidator {
     public boolean isValid(GameState game, String userId, Point move) {
         var player = game.getPlayersTurnMap().get(userId);

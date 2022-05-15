@@ -32,6 +32,13 @@
 			<version>1.18.22</version>
 		</dependency>
 
+		<!-- MQTT -->
+		<dependency>
+			<groupId>org.springframework.integration</groupId>
+			<artifactId>spring-integration-mqtt</artifactId>
+			<version>5.4.5</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>

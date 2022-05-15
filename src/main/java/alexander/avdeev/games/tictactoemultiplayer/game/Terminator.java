@@ -3,10 +3,12 @@ package alexander.avdeev.games.tictactoemultiplayer.game;
 import alexander.avdeev.games.tictactoemultiplayer.exception.NoActiveGameException;
 import alexander.avdeev.games.tictactoemultiplayer.exception.PlayerIsNotKnown;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.stereotype.Component;
 
 import java.util.Map;
 
 @Slf4j
+@Component
 public class Terminator {
     public void terminate(Map<String, GameState> users, Map<String, GameState> games, String userId){
 
